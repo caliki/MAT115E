@@ -12,4 +12,5 @@ int main() {
    scanf("%i",&n);
    coolfunction(n,&result);
    printf("\n e^ %i = %lf",n,result);
+   return 0;
 }
