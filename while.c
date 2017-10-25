@@ -8,4 +8,11 @@ int main()
 		p*=k;
 		k+=2;
 	}
+	//for version
+	p=1;
+	for(k=0;k<10;k++)
+	{
+		p*=k;
+	}
+	return 0;
 }
