@@ -16,9 +16,8 @@ int comb(int n,int r)
 }
 
 int main() {
-   int m;
+   int m,i,j;
    scanf("%i",&m);
-   int i,j;
    for(i=m-1;i>=0;i--)
    {
        for(j=0;j<=i;j++)
